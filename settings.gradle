@@ -1,0 +1,3 @@
+rootProject.name = "C_Banner"
+include ':app'
+include ':bannerlibrary'
