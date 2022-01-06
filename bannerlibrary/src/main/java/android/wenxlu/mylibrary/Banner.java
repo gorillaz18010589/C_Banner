@@ -481,7 +481,7 @@ public class Banner<T, BA extends BannerAdapter> extends FrameLayout implements 
 
     public BA getAdapter() {
         if (mAdapter == null) {
-            Log.e(getContext().getString(R.string.banner_adapter_use_error));
+            Log.e("hank",getContext().getString(R.string.banner_adapter_use_error));
         }
         return mAdapter;
     }
@@ -492,7 +492,7 @@ public class Banner<T, BA extends BannerAdapter> extends FrameLayout implements 
 
     public Indicator getIndicator() {
         if (mIndicator == null) {
-            Log.e(getContext().getString(R.string.indicator_null_error));
+            Log.e("hank",getContext().getString(R.string.indicator_null_error));
         }
         return mIndicator;
     }

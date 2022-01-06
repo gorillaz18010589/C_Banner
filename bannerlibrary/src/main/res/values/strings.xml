@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="banner_adapter_null_error">Banner setAdapter() 參數不能為空</string>
+    <string name="banner_adapter_use_error">你還沒有調用 setAdapter() 方法</string>
+    <string name="indicator_null_error">請先調用setIndicator()方法來設置指示器</string>
+</resources>
